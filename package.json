@@ -1,0 +1,18 @@
+{
+  "name": "wp-ddos-poc-with-proxy",
+  "version": "1.0.0",
+  "description": "CVE-2018-6389 PoC node js multisite with proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "hedwin",
+  "license": "Boyko Borisov hAPI",
+  "dependencies": {
+    "exec": "^0.2.1",
+    "mqtt": "^2.18.8",
+    "proxy-lists": "^1.16.0",
+    "request": "^2.88.0",
+    "socks": "^2.2.2"
+  }
+}
